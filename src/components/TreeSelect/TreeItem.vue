@@ -14,7 +14,11 @@
       "label",
       "level",
       "checkedList",
+      "updateChekedList",
     ],
+    mounted(){
+      this.updateChekedList(this.code);
+    },
     data() {
       return {};
     },

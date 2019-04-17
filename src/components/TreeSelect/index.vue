@@ -7,6 +7,7 @@
         v-bind:label="item.label"
         v-bind:level="item.level"
         v-bind:checkedList="checkedList"
+        v-bind:updateChekedList="updateChekedList"
         v-on:onChange="onChangeHandler"
       />
     </div>
