@@ -13,9 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@nuxt/typescript": "^2.6.1",
-    "node-sass": "^4.11.0",
     "nuxt": "^2.6.1",
-    "sass-loader": "^7.1.0",
     "ts-node": "^8.0.3",
     "ts-vue-plugin": "^0.2.0",
     "typescript": "^3.4.3",

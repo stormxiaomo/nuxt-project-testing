@@ -2,42 +2,8 @@
 
 exports[`index spec should render proper 1`] = `
 <div>
-  <div>
-    <h5>
-      Find Label by Code
-    </h5>
-     
-    <div>
-      <label>
-        Code Input
-      </label>
-       
-      <input
-        placeholder="input code here"
-        type="text"
-      />
-    </div>
-     
-    <div>
-      <label>
-        Result Label
-      </label>
-       
-      <input
-        placeholder="result here"
-        readonly="readonly"
-        type="text"
-      />
-    </div>
-  </div>
-   
-  <hr />
-   
-  <div>
-    <h5>
-      Tree View
-    </h5>
-     
-  </div>
+  
+  Hello
+
 </div>
 `;
