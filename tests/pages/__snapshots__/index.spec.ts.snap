@@ -2,8 +2,14 @@
 
 exports[`index spec should render proper 1`] = `
 <div>
+  <div>
+    issue 1
+  </div>
+   
+  <div>
+    
+    label B-1-1
   
-  Hello
-
+  </div>
 </div>
 `;
