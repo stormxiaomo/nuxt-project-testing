@@ -1,6 +1,6 @@
 import {Permissions} from "../types/Permissions";
 
-/** for quickly solved : loop all of the permissions by code */
+/** for quickly solved : loop all of the permissions */
 export function findLabel(code: string, permissions: Permissions): string {
   for(const permission of permissions){
     if(code === permission.code) {
