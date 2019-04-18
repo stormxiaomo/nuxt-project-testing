@@ -24,9 +24,13 @@ describe("TreeSelect index spec", () => {
         expect(onChangeHandler.mock.calls.length).toBe(0);
         expect(isCheck.mock.calls.length).toBe(0);
         expect(updateChekedList.mock.calls.length).toBe(0);
-        // wrapper.find('TreeItem').trigger('change');
-        // wrapper.trigger('change');
-        // expect(onChangeHandler.mock.calls.length).toBe(1);
+        
+        // todo : trigger event for these funcs be calls.
+
+        //
+        expect(onChangeHandler.mock.calls.length).toBe(1);
+        expect(isCheck.mock.calls.length).toBe(1);
+        expect(updateChekedList.mock.calls.length).toBe(1);
       })
       
 });
